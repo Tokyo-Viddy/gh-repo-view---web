@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto+Mono&display=swap');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+h1 {
+  color: #9E768F;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+body {
+  background-color: #9fa4c4cc;
+  font-family: 'Lato', sans-serif;
+  font-size: 500;
+  line-height: normal;
+  color: rgb(20, 20, 20);
+}
+
+h2 {
+  color: #9E768F;
+  font-size: 32px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #6C464F;
+}
+
+p {
+  padding: 8px;
+}
+a:hover {
+  color: #1dad71;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid rgb(80, 80, 80, .5);
+  padding: 8px 16px 48px 16px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 5px #9FA4C4;
+  margin: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.btn-lgt-blue {
+  background: #B3CDD1;
+  border-radius: 3px;
+  padding: 8px 10px;
+  margin: 10px 0px;
+}
+
+.btn-lgt-blue:hover {
+  background: #963011;
+  padding: 8px 10px;
+  margin: 10px 0px;
+  transition: .2s;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  font-size: 56px;
+  margin: 0 16px;
+}
+
+.justified {
+  text-align: justify;
+}
+
+.list-inline a {
+  color: #3535bb;
+}
+
+.list-inline a:hover {
+  color: #1dad71;
+}
